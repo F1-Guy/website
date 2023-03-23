@@ -4,6 +4,7 @@
 <template>
     <div id="projects" class="container py-3">
         <h1 class="pb-1 fw-bold text-center text-white">My projects</h1>
+        <p class="text-center text-white">Here are some of my projects. I'm always working on something (not necessarily programming).</p>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div id="card" class="card h-100">
