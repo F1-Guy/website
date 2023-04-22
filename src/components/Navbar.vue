@@ -3,7 +3,7 @@
 
 <template>
     <!-- Debug overflow issue where position-absolute separates body form top of the page -->
-    <section class="navigation container-fluid bg-dark overflow-auto">
+    <section class="navigation container-fluid bg-dark">
         <nav id="nav" class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="#jumbo">Bartol Čagalj</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

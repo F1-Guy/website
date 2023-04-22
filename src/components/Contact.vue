@@ -31,7 +31,7 @@ export default defineComponent({
             this.errorMessages = []
 
             if (!emailRegex.test(this.email)) {
-                this.errorMessages.push("Your email address looks invalid. PLease double check and try again.")
+                this.errorMessages.push("Your email address looks invalid. Please double check and try again.")
                 isValid = false
             }
             if (this.name.length < 2) {
@@ -53,8 +53,8 @@ export default defineComponent({
     <div id="contact" class="container">
         <h1 class="fw-bold text-center text-white">Contact me</h1>
         <p class="text-center text-white">If you have any questions or want to work with me, feel free to shoot me a quick message.</p>
-        <div>
-            <ul v-if="errorMessages" class="list-group">
+        <div v-if="errorMessages.length > 0">
+            <ul class="list-group">
                 <li v-for="errorMessage in errorMessages" class="list-group-item list-group-item-danger mt-1">{{ errorMessage }}</li>
             </ul>
         </div>
@@ -86,5 +86,32 @@ export default defineComponent({
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.list-group {
+    border-radius: 0;
+    color: #721c24;
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-floating input,
+.form-floating textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 0;
+    padding: 8px 0;
+    color: #ffffff;
+    padding-left: 13px;
+}
+
+.form-floating label {
+    color: #ffffff;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 0;
+}
+</style>
 
