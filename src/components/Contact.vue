@@ -87,11 +87,15 @@ export default defineComponent({
 </template>
 
 <style scoped>
-.list-group {
-    border-radius: 0;
-    color: #721c24;
-    padding: 5px;
-    margin: 5px;
+.list-group,
+.list-group-item {
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
 }
 
 .form-floating input,
@@ -102,7 +106,7 @@ export default defineComponent({
     border-radius: 0;
     padding: 8px 0;
     color: #ffffff;
-    padding-left: 13px;
+    padding-left: 14px;
 }
 
 .form-floating label {
@@ -111,7 +115,11 @@ export default defineComponent({
 
 .btn-primary {
     border: none;
-    border-radius: 0;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(16, 170, 62);
 }
 </style>
 

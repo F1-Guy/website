@@ -21,7 +21,7 @@ While vue.js i probably a bit overkill for this project it makes it a lot easier
 <!-- CONTACT -->
 ## Contact
 
-Bartol Cagalj - [bartol.cagalj@gamail.com](mailto:bartol.cagalj@gmail.com)
+Bartol Cagalj - [bartol.cagalj@gmail.com](mailto:bartol.cagalj@gmail.com)
 
 Project Link: [https://github.com/F1-Guy/personal-webiste](https://github.com/F1-Guy/personal-webiste)
 

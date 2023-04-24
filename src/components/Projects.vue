@@ -43,4 +43,26 @@
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.card {
+    background-color: #464646;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+</style>
