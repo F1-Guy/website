@@ -15,5 +15,10 @@
     </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+li:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+}
+</style>
 

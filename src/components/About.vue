@@ -23,7 +23,7 @@ export default defineComponent({
                 {{ isMouseOver ? ipa : name }}
             </h1>
         </div>
-        <div class="col profile phone-hide">
+        <div class="col profile d-none d-md-block">
             <img src="../assets/images/temp.png" class="img-fluid" alt="Responsive image">
         </div>
     </div>
@@ -49,10 +49,6 @@ export default defineComponent({
 }
 
 @media (max-width: 768px) {
-    .phone-hide {
-        display: none;
-    }
-
     .phone-align-center {
         text-align: center;
     }
