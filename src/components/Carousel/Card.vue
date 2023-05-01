@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="card">
+    <div class="card d-flex align-items-center position-absolute">
         <img :src="`src/assets/logos/${imageName}`" class="emblem" />
         <h2 class="text-center text-white fw-bold py-3">{{ title }}</h2>
     </div>
@@ -18,8 +18,8 @@ export default {
 .card {
     background-color: transparent;
     border: 0;
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 15em;
 }
 
 .emblem {
